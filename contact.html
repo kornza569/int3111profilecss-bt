@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <script src="js/bootstrap.js"></script>
+  <meta charset="utf-8">
+  <title>แนะนำตัว</title>
+  <style>
+  #msg{
+    width: 400px;
+    height: 400px;
+  }
+  #h1{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .container{
+    margin-top:30px;
+    background-color:#ffffff;
+    margin-bottom:30px;
+    padding:5px;
+  }
+
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" >PROFILE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">หน้าหลัก</a>
+        </li>
+        <li class="nav-item dropdown">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">ติดต่อ</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+    <div class="container" id="container01" align='justify'>
+  <div id="h1">
+  <h1>รายละเอียดการติดต่อ</h1>
+  <p>42 ซ.อ่อนนุช80 ถ.อ่อนนุช แขวงประเวศ เขตประเวศ กทม. 10250</p>
+  <p>โทร 0655419799</p>
+  <hr>
+  <div class="col-5 mt-2">
+    <label for="Username" class="form-label">ชื่อของคุณ:</label>
+    <input type="Username" class="form-control" placeholder="Enter Username" id="user" required>
+  </div>
+  <br>
+  <div class="col-5 mb-1">
+    <label for="Username" class="form-label">Email:</label>
+    <input type="Username" class="form-control" placeholder="Enter Email" id="user" required>
+  </div>
+  <br>
+    <div>
+      ข้อความที่คุณต้องการส่งถึงเรา:
+    </div>
+    <textarea id="msg" name="msg" class="form-control" placeholder="Enter message"></textarea>
+  </tr>
+  <br>
+  <tr>
+    <td> </td>
+    <button class=" mt-4 btn btn-success" onClick="window.location.reload();">Submit</button>
+  </tr>
+  </div>
+</div>
+    </div>
+    <body style="background-size:cover; z-index:-1;"background="b1.jpg">
+  </body>
